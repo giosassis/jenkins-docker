@@ -1,9 +1,0 @@
-Comando para criar ssh local: ssh-keygen -f terraform-aws -t rsa 
-Chave pública e chave privada 
-
-mv terraform-aws ~/.ssh/
-ssh -i ~/.ssh/terraform-aws ec2-user@ec2-34-207-84-210.compute-1.amazonaws.com 
-
-terraform fmt
-Terraform worflow: init, plan, apply, show
-
